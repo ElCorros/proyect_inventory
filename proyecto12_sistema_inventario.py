@@ -1,6 +1,6 @@
 #Gestión de inventario
 
-inventario = [{'nombre': 'camisa', 'precio': 30, 'cantidad': 20}, {'nombre': 'gorro', 'precio': 30, 'cantidad': 20}, {'nombre': 'chaqueta', 'precio': 30, 'cantidad': 20}]
+inventario = [{'nombre': 'Camisa', 'precio': 30, 'cantidad': 20}, {'nombre': 'Gorro', 'precio': 30, 'cantidad': 20}, {'nombre': 'Chaqueta', 'precio': 30, 'cantidad': 20}]
 
 def inicio():
     while True:
@@ -60,5 +60,6 @@ def anadir_producto():
         num_productos -= 1
     print('\nVolviendo al menu principal...\n')
     inicio()
+
 
 inicio()
